@@ -47,3 +47,11 @@
 //     res.write(page);
 //     res.end();
 // }).listen(4000)
+
+
+// var http = require('http');
+// var uc = require('upper-case');
+// http.createServer(function(req, res) {
+//     res.write(uc.upperCase("this is a example of upper case pacakge install"));
+//     res.end();
+// }).listen(4000)
